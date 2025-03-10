@@ -12,3 +12,54 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* #region глобальні стилі */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* #endregion глобальні стилі */
+
+/* #region task-1 */
+/* #endregion task-1 */
+
+/* #region task-2 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
+}
+
+.gallery-item {
+  flex-basis: calc((100% - 24px) / 4);
+}
+
+.gallery-img {
+  width: 360px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+/* #endregion task-2 */
